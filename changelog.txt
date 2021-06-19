@@ -1,0 +1,5 @@
+﻿---------------------------------------------------------------------------------------------------
+Version: 1.3.0
+Date: 19.6.2021
+  Features:
+    - Added mod setting (runtime, per user) to configure if item requests in requester chests should be copied when spllitting chest.
