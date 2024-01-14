@@ -1,5 +1,12 @@
 ﻿---------------------------------------------------------------------------------------------------
+Version: 2.0.0
+Date: 14.1.2024
+  Features:
+    - Added mod options to configure how individual logistic chest types can be merged.
+    - Added trashdumps variants for merged logistic chests.
+    - Added more options to mod setting for split logistic requests during chest splitting.
+---------------------------------------------------------------------------------------------------
 Version: 1.3.0
 Date: 19.6.2021
   Features:
-    - Added mod setting (runtime, per user) to configure if item requests in requester chests should be copied when spllitting chest.
+    - Added mod setting (runtime, per user) to configure if item requests in requester chests should be copied when splitting chest.
