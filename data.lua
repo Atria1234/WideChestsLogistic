@@ -156,107 +156,107 @@ local function create_segments_data(wide_entity_filename, wide_shadow_filename, 
 end
 
 MergingChestsLogistic.passive_provider_chest_segments = create_segments_data(
-    "__WideChestsLogistic__/graphics/entity/logistic-chest-passive-provider/wide-chest/passive-provider-wide-chest.png",
-    "__WideChestsLogistic__/graphics/entity/logistic-chest-passive-provider/wide-chest/wide-chest-shadow.png",
+    "__WideChestsLogistic__/graphics/entity/"..MergingChestsLogistic.chest_names.passive_provider.."/wide-chest/passive-provider-wide-chest.png",
+    "__WideChestsLogistic__/graphics/entity/"..MergingChestsLogistic.chest_names.passive_provider.."/wide-chest/wide-chest-shadow.png",
 
-    "__WideChestsLogistic__/graphics/entity/logistic-chest-passive-provider/high-chest/passive-provider-high-chest.png",
-    "__WideChestsLogistic__/graphics/entity/logistic-chest-passive-provider/high-chest/high-chest-shadow.png",
+    "__WideChestsLogistic__/graphics/entity/"..MergingChestsLogistic.chest_names.passive_provider.."/high-chest/passive-provider-high-chest.png",
+    "__WideChestsLogistic__/graphics/entity/"..MergingChestsLogistic.chest_names.passive_provider.."/high-chest/high-chest-shadow.png",
 
-    "__WideChestsLogistic__/graphics/entity/logistic-chest-passive-provider/warehouse/warehouse.png",
-    "__WideChestsLogistic__/graphics/entity/logistic-chest-passive-provider/warehouse/warehouse-shadow.png",
+    "__WideChestsLogistic__/graphics/entity/"..MergingChestsLogistic.chest_names.passive_provider.."/warehouse/warehouse.png",
+    "__WideChestsLogistic__/graphics/entity/"..MergingChestsLogistic.chest_names.passive_provider.."/warehouse/warehouse-shadow.png",
 
     {228, 81, 59},
 
-    "__WideChestsLogistic__/graphics/entity/logistic-chest-passive-provider/passive-provider-hatch-door.png"
+    "__WideChestsLogistic__/graphics/entity/"..MergingChestsLogistic.chest_names.passive_provider.."/passive-provider-hatch-door.png"
 )
 MergingChestsLogistic.active_provider_chest_segments = create_segments_data(
-    "__WideChestsLogistic__/graphics/entity/logistic-chest-active-provider/wide-chest/active-provider-wide-chest.png",
-    "__WideChestsLogistic__/graphics/entity/logistic-chest-active-provider/wide-chest/wide-chest-shadow.png",
+    "__WideChestsLogistic__/graphics/entity/"..MergingChestsLogistic.chest_names.active_provider.."/wide-chest/active-provider-wide-chest.png",
+    "__WideChestsLogistic__/graphics/entity/"..MergingChestsLogistic.chest_names.active_provider.."/wide-chest/wide-chest-shadow.png",
 
-    "__WideChestsLogistic__/graphics/entity/logistic-chest-active-provider/high-chest/active-provider-high-chest.png",
-    "__WideChestsLogistic__/graphics/entity/logistic-chest-active-provider/high-chest/high-chest-shadow.png",
+    "__WideChestsLogistic__/graphics/entity/"..MergingChestsLogistic.chest_names.active_provider.."/high-chest/active-provider-high-chest.png",
+    "__WideChestsLogistic__/graphics/entity/"..MergingChestsLogistic.chest_names.active_provider.."/high-chest/high-chest-shadow.png",
 
-    "__WideChestsLogistic__/graphics/entity/logistic-chest-active-provider/warehouse/warehouse.png",
-    "__WideChestsLogistic__/graphics/entity/logistic-chest-active-provider/warehouse/warehouse-shadow.png",
+    "__WideChestsLogistic__/graphics/entity/"..MergingChestsLogistic.chest_names.active_provider.."/warehouse/warehouse.png",
+    "__WideChestsLogistic__/graphics/entity/"..MergingChestsLogistic.chest_names.active_provider.."/warehouse/warehouse-shadow.png",
 
     {163, 78, 192},
 
-    "__WideChestsLogistic__/graphics/entity/logistic-chest-active-provider/active-provider-hatch-door.png"
+    "__WideChestsLogistic__/graphics/entity/"..MergingChestsLogistic.chest_names.active_provider.."/active-provider-hatch-door.png"
 )
 MergingChestsLogistic.storage_chest_segments = create_segments_data(
-    "__WideChestsLogistic__/graphics/entity/logistic-chest-storage/wide-chest/storage-wide-chest.png",
-    "__WideChestsLogistic__/graphics/entity/logistic-chest-storage/wide-chest/wide-chest-shadow.png",
+    "__WideChestsLogistic__/graphics/entity/"..MergingChestsLogistic.chest_names.storage.."/wide-chest/storage-wide-chest.png",
+    "__WideChestsLogistic__/graphics/entity/"..MergingChestsLogistic.chest_names.storage.."/wide-chest/wide-chest-shadow.png",
 
-    "__WideChestsLogistic__/graphics/entity/logistic-chest-storage/high-chest/storage-high-chest.png",
-    "__WideChestsLogistic__/graphics/entity/logistic-chest-storage/high-chest/high-chest-shadow.png",
+    "__WideChestsLogistic__/graphics/entity/"..MergingChestsLogistic.chest_names.storage.."/high-chest/storage-high-chest.png",
+    "__WideChestsLogistic__/graphics/entity/"..MergingChestsLogistic.chest_names.storage.."/high-chest/high-chest-shadow.png",
 
-    "__WideChestsLogistic__/graphics/entity/logistic-chest-storage/warehouse/warehouse.png",
-    "__WideChestsLogistic__/graphics/entity/logistic-chest-storage/warehouse/warehouse-shadow.png",
+    "__WideChestsLogistic__/graphics/entity/"..MergingChestsLogistic.chest_names.storage.."/warehouse/warehouse.png",
+    "__WideChestsLogistic__/graphics/entity/"..MergingChestsLogistic.chest_names.storage.."/warehouse/warehouse-shadow.png",
 
     {201, 164, 64},
 
-    "__WideChestsLogistic__/graphics/entity/logistic-chest-storage/storage-hatch-door.png"
+    "__WideChestsLogistic__/graphics/entity/"..MergingChestsLogistic.chest_names.storage.."/storage-hatch-door.png"
 )
 MergingChestsLogistic.buffer_chest_segments = create_segments_data(
-    "__WideChestsLogistic__/graphics/entity/logistic-chest-buffer/wide-chest/buffer-wide-chest.png",
-    "__WideChestsLogistic__/graphics/entity/logistic-chest-buffer/wide-chest/wide-chest-shadow.png",
+    "__WideChestsLogistic__/graphics/entity/"..MergingChestsLogistic.chest_names.buffer.."/wide-chest/buffer-wide-chest.png",
+    "__WideChestsLogistic__/graphics/entity/"..MergingChestsLogistic.chest_names.buffer.."/wide-chest/wide-chest-shadow.png",
 
-    "__WideChestsLogistic__/graphics/entity/logistic-chest-buffer/high-chest/buffer-high-chest.png",
-    "__WideChestsLogistic__/graphics/entity/logistic-chest-buffer/high-chest/high-chest-shadow.png",
+    "__WideChestsLogistic__/graphics/entity/"..MergingChestsLogistic.chest_names.buffer.."/high-chest/buffer-high-chest.png",
+    "__WideChestsLogistic__/graphics/entity/"..MergingChestsLogistic.chest_names.buffer.."/high-chest/high-chest-shadow.png",
 
-    "__WideChestsLogistic__/graphics/entity/logistic-chest-buffer/warehouse/warehouse.png",
-    "__WideChestsLogistic__/graphics/entity/logistic-chest-buffer/warehouse/warehouse-shadow.png",
+    "__WideChestsLogistic__/graphics/entity/"..MergingChestsLogistic.chest_names.buffer.."/warehouse/warehouse.png",
+    "__WideChestsLogistic__/graphics/entity/"..MergingChestsLogistic.chest_names.buffer.."/warehouse/warehouse-shadow.png",
 
     {73, 185, 86},
 
-    "__WideChestsLogistic__/graphics/entity/logistic-chest-buffer/buffer-hatch-door.png"
+    "__WideChestsLogistic__/graphics/entity/"..MergingChestsLogistic.chest_names.buffer.."/buffer-hatch-door.png"
 )
 MergingChestsLogistic.requester_chest_segments = create_segments_data(
-    "__WideChestsLogistic__/graphics/entity/logistic-chest-requester/wide-chest/requester-wide-chest.png",
-    "__WideChestsLogistic__/graphics/entity/logistic-chest-requester/wide-chest/wide-chest-shadow.png",
+    "__WideChestsLogistic__/graphics/entity/"..MergingChestsLogistic.chest_names.requester.."/wide-chest/requester-wide-chest.png",
+    "__WideChestsLogistic__/graphics/entity/"..MergingChestsLogistic.chest_names.requester.."/wide-chest/wide-chest-shadow.png",
 
-    "__WideChestsLogistic__/graphics/entity/logistic-chest-requester/high-chest/requester-high-chest.png",
-    "__WideChestsLogistic__/graphics/entity/logistic-chest-requester/high-chest/high-chest-shadow.png",
+    "__WideChestsLogistic__/graphics/entity/"..MergingChestsLogistic.chest_names.requester.."/high-chest/requester-high-chest.png",
+    "__WideChestsLogistic__/graphics/entity/"..MergingChestsLogistic.chest_names.requester.."/high-chest/high-chest-shadow.png",
 
-    "__WideChestsLogistic__/graphics/entity/logistic-chest-requester/warehouse/warehouse.png",
-    "__WideChestsLogistic__/graphics/entity/logistic-chest-requester/warehouse/warehouse-shadow.png",
+    "__WideChestsLogistic__/graphics/entity/"..MergingChestsLogistic.chest_names.requester.."/warehouse/warehouse.png",
+    "__WideChestsLogistic__/graphics/entity/"..MergingChestsLogistic.chest_names.requester.."/warehouse/warehouse-shadow.png",
 
     {71, 177, 212},
 
-    "__WideChestsLogistic__/graphics/entity/logistic-chest-requester/requester-hatch-door.png"
+    "__WideChestsLogistic__/graphics/entity/"..MergingChestsLogistic.chest_names.requester.."/requester-hatch-door.png"
 )
 
 MergingChests.create_mergeable_chest(
     {
-        chest_name = 'logistic-chest-passive-provider',
+        chest_name = MergingChestsLogistic.chest_names.passive_provider,
         logistic_mode = 'passive-provider'
     },
     MergingChestsLogistic.passive_provider_chest_segments
 )
 MergingChests.create_mergeable_chest(
     {
-        chest_name = 'logistic-chest-active-provider',
+        chest_name = MergingChestsLogistic.chest_names.active_provider,
         logistic_mode = 'active-provider'
     },
     MergingChestsLogistic.active_provider_chest_segments
 )
 MergingChests.create_mergeable_chest(
     {
-        chest_name = 'logistic-chest-storage',
+        chest_name = MergingChestsLogistic.chest_names.storage,
         logistic_mode = 'storage'
     },
     MergingChestsLogistic.storage_chest_segments
 )
 MergingChests.create_mergeable_chest(
     {
-        chest_name = 'logistic-chest-buffer',
+        chest_name = MergingChestsLogistic.chest_names.buffer,
         logistic_mode = 'buffer'
     },
     MergingChestsLogistic.buffer_chest_segments
 )
 MergingChests.create_mergeable_chest(
     {
-        chest_name = 'logistic-chest-requester',
+        chest_name = MergingChestsLogistic.chest_names.requester,
         logistic_mode = 'requester'
     },
     MergingChestsLogistic.requester_chest_segments

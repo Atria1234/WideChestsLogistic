@@ -1,11 +1,11 @@
 require('init')
 
 -- Register chest in base mod
-MergingChests.create_mergeable_chest_setting('logistic-chest-passive-provider', {  default_value = 'none' })
-MergingChests.create_mergeable_chest_setting('logistic-chest-active-provider', { default_value = 'none' })
-MergingChests.create_mergeable_chest_setting('logistic-chest-storage', {  default_value = 'none' })
-MergingChests.create_mergeable_chest_setting('logistic-chest-buffer', { default_value = 'none' })
-MergingChests.create_mergeable_chest_setting('logistic-chest-requester', { default_value = 'none' })
+MergingChests.create_mergeable_chest_setting(MergingChestsLogistic.chest_names.passive_provider, {  default_value = 'none' })
+MergingChests.create_mergeable_chest_setting(MergingChestsLogistic.chest_names.active_provider, { default_value = 'none' })
+MergingChests.create_mergeable_chest_setting(MergingChestsLogistic.chest_names.storage, {  default_value = 'none' })
+MergingChests.create_mergeable_chest_setting(MergingChestsLogistic.chest_names.buffer, { default_value = 'none' })
+MergingChests.create_mergeable_chest_setting(MergingChestsLogistic.chest_names.requester, { default_value = 'none' })
 
 data:extend(
 {
