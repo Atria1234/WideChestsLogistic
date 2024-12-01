@@ -1,6 +1,6 @@
 {
 	"name": "WideChestsLogistic",
-	"version": "3.0.0",
+	"version": "3.0.1",
 	"factorio_version": "2.0",
 	"title": "Merging Chests Logistic",
 	"author": "Atria",
@@ -8,6 +8,6 @@
 	"homepage": "",
 	"description": "Toggle mod for WideChests mod. Having this mod enabled together with WideChests enables merging of all logistic chests. Can increases memory usage and loading time significantly (depending on your mod settings).",
 	"dependencies": [
-		"WideChests >= 6.0.0"
+		"WideChests >= 6.2.0"
 	]
 }
