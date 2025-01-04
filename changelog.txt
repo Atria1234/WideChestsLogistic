@@ -1,4 +1,15 @@
 ﻿---------------------------------------------------------------------------------------------------
+Version: 3.1.0
+Date: 4.1.2025
+  Features:
+    - Added support for merging non-normal quality logistic requests. Only works on "=" requests, others are still ignored.
+    - Named logistic groups are preserved during merge/split if possible.
+    - Statuses of logistic groups are taken into consideration during merge/split.
+    - Multipliers of logistic groups are taken into consideration during merge/split.
+  Bugfixes:
+    - Fixed incorrect limits when requests are merged.
+
+---------------------------------------------------------------------------------------------------
 Version: 3.0.1
 Date: 1.12.2024
   Bugfixes:
