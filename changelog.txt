@@ -1,4 +1,11 @@
 ﻿---------------------------------------------------------------------------------------------------
+Version: 3.1.1
+Date: 1.11.2025
+  Bugfixes:
+    - Fixed merging/splitting crash when chest have empty request slots before full ones.
+    - Fixed merging/splitting crash when chest have non-item types of request.
+
+---------------------------------------------------------------------------------------------------
 Version: 3.1.0
 Date: 4.1.2025
   Features:

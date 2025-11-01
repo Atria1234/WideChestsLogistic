@@ -122,7 +122,7 @@ local function move_logistic_requests(player_index, from_entities, to_entities)
                 -- Move requests to unnamed groups if source is not named group or mod setting wouldn't allow them to be copied to target chests
                 if section.group == '' or not can_preserve_named_groups then
                     for _, request in ipairs(section.filters) do
-                        if request.value.comparator == '=' then
+                        if request.value and request.value.type == 'item' and request.value.comparator == '=' then
                             requests[section.active] = requests[section.active] or {}
                             requests[section.active][request.value.name] = requests[section.active][request.value.name] or {}
                             requests[section.active][request.value.name][request.value.quality] = requests[section.active][request.value.name][request.value.quality] or {}
