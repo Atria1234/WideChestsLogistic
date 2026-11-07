@@ -142,7 +142,7 @@ local function create_segments_data(wide_entity_filename, wide_shadow_filename, 
                         filename = hatch_filename,
                         width = 66,
                         height = 32,
-                        shift = { x= -16, y = 12 },
+                        shift = { y = 12 },
                         frame_count = 7,
                         scale = 0.5,
                         tint = {1, 1, 1}
